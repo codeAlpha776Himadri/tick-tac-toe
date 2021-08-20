@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="engine.js"></script>
+</head>
+
+<body>
+    <section class="container">
+        <div class="winning-message">
+            <div data-winning-message-text> X wins!! </div>
+            <button id="restartButton">Restart</button>
+        </div>
+        <div class="left-dashboard">
+            <div class="playerX  player">
+                <input name="name" type="text" class="name" placeholder="Enter Name1 : ">
+            </div>
+            <button class="Xplayer">Set player X Name</button>
+        </div>
+        <div class="game-section">
+            <div class="game-name">
+                <h1>Tic Tac Toe</h1>
+            </div>
+            <div class="player-names">
+                set your names to start playing
+            </div>
+            <div class="game" id="game">
+                <div class="cell" data-cell> </div>
+                <div class="cell" data-cell> </div>
+                <div class="cell" data-cell> </div>
+                <div class="cell" data-cell> </div>
+                <div class="cell" data-cell> </div>
+                <div class="cell" data-cell> </div>
+                <div class="cell" data-cell> </div>
+                <div class="cell" data-cell> </div>
+                <div class="cell" data-cell> </div>
+            </div>
+        </div>
+        <div class="right-dashboard">
+            <div class="playerO   player">
+                <input name="name" type="text" class="name" placeholder="Enter Name2 : ">
+            </div>
+            <button class="Oplayer">
+                Set player O Name
+            </button>
+        </div>
+    </section>
+</body>
+
+</html>
